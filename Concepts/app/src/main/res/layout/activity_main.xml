@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1080px"
+    android:layout_height="1920px"
+    android:background="@drawable/purple2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Gradecal"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:autoText="false"
+        android:backgroundTint="#F70B0E29"
+        android:fontFamily="@font/anaheim"
+        android:text="Grade calculator"
+        android:textColor="#9145A5"
+        android:textColorHighlight="#8E24AA"
+        android:textColorHint="#8E24AA"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Quizes"
+        android:layout_width="276dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="24dp"
+        android:background="#A6B554E6"
+        android:backgroundTint="#DFB6EA"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Quizes %15"
+        android:inputType="textPersonName"
+        android:textColor="#CF44F4"
+        android:textColorHint="#AD5BC3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/HW"
+        android:layout_width="276dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="43dp"
+        android:background="#88FFFFFF"
+        android:backgroundTint="#DFB6EA"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Homework %25"
+        android:inputType="textPersonName"
+        android:textColor="#CF44F4"
+        android:textColorHint="#AD5BC3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/MT"
+        android:layout_width="276dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="45dp"
+        android:background="#81FFFFFF"
+        android:backgroundTint="#DFB6EA"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Mid terms %30"
+        android:inputType="textPersonName"
+        android:textColor="#CF44F4"
+        android:textColorHint="#AD5BC3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Final"
+        android:layout_width="276dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="43dp"
+        android:background="#7CFFFFFF"
+        android:backgroundTint="#DFB6EA"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Final %30"
+        android:inputType="textPersonName"
+        android:textColor="#CF44F4"
+        android:textColorHint="#AD5BC3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundtext"
+        android:backgroundTint="#E2B8ED"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="#9145A5"
+        android:textSize="25dp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/bttnCalculate"
+        android:layout_width="139dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#8E24AA"
+        android:fontFamily="sans-serif"
+        android:text="Calculate"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/bttnReset"
+        android:layout_width="139dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-45dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#B24FCC"
+        android:fontFamily="sans-serif"
+        android:text="Reset"
+        android:textColor="#FFFFFF" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="1080px"
+        android:layout_height="1920px"
+        android:layout_marginTop="-600dp"
+        android:background="@drawable/confetti" />
+
+
+</LinearLayout>

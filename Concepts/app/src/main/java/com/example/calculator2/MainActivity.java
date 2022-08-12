@@ -53,11 +53,16 @@ public class MainActivity extends AppCompatActivity {
                 + (confetti appears if they get 90+)
                  */
                 int x = 50;
-                if (results > x) {
+                int y = 90;
+                if (results > y) {
                     Result.setTextColor(getResources().getColor(R.color.Passed));
                     Gif.animate().alpha(1).setDuration(3000);
-                  }else{
 
+
+                }else if (results > x){
+                    Result.setTextColor(getResources().getColor(R.color.Passed));
+                }
+                else{
 
                     Result.setTextColor(getResources().getColor(R.color.failed));
 
